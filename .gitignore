@@ -1,0 +1,29 @@
+# Secrets: no .env file is ever committed, anywhere. The .env.example files are the templates.
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Node / Vite (frontend)
+node_modules/
+frontend/dist/
+*.local
+
+# Audit-trail write leftovers (the trail itself, output/audit_trail.json, is committed)
+output/*.json.tmp
+output/*.pending.jsonl
+output/*.unreadable.jsonl
+
+# Local tooling and archives
+.claude/
+data.zip
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

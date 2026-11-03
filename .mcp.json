@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "campus-customs": {
+      "type": "stdio",
+      "command": "C:/Users/kenri/OneDrive/Documents/Yale/Canvas Course Info/MGT 409 - AI for Managers-/Homework 5/.venv/Scripts/python.exe",
+      "args": [
+        "C:/Users/kenri/OneDrive/Documents/Yale/Canvas Course Info/MGT 409 - AI for Managers-/Homework 5/mcp_server/server.py"
+      ]
+    }
+  }
+}
